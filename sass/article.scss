@@ -1,0 +1,184 @@
+//article
+article
+{
+   width:auto;
+   height:auto;
+   margin-bottom: 2rem;
+  text-align: center;
+  background:#F7F7F7;
+  margin-top: 0;
+  margin-right: 0;
+  padding-bottom:30px;
+  padding-top:39.5px;
+  overflow: hidden;
+  h2 {
+   
+    @media (max-width:768px) {
+      width: 95%;
+      height: auto;
+      font-size:21px;
+      font-weight: 500;
+      flex-wrap: wrap;
+      color:#000000;
+      font-family: 'roboto',sans-serif;
+      
+    }
+    @media (min-width:768px) and (max-width:992px) {
+      font-size:24px;
+      font-weight: 700;
+      font-family: 'roboto',sans-serif;
+      flex-wrap: wrap;
+     
+    }
+    @media (min-width:992px){
+     width: auto;
+     height: auto;
+     font-family: 'roboto',sans-serif;
+     font-size:40px;
+     font-style: normal;
+     font-weight: 700;
+      color:#000000;
+    }
+  }
+  p 
+  {
+    @media (max-width:768px) {
+      width:84%;
+      font-size:18px;
+      font-weight: 300;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-left: 9%;
+      margin-right: 6.93%;
+      color:#353535;
+      font-family: 'roboto' ,Arial, sans-serif;
+      
+    }
+   
+    @media (min-width:768px) and (max-width:992px) {
+      font-size: 18px;
+      font-weight: 300;
+      color:#353535;
+      font-style: normal;
+      font-family: 'roboto' ,Arial, sans-serif;
+      
+    }
+    @media (min-width:992px){
+      width:auto;
+      height: auto;
+      font-family:'Roboto','sans-serif';
+      font-size: 1rem;
+      font-style: normal;  
+      font-weight:600;
+      font-style: normal;
+      color:#353535;
+    }
+  }
+  button
+  {
+    @media (max-width:768px) {
+      width:auto;
+      height:59px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      @include principal-shadow;
+      @include gradient;
+      
+    }
+    @media (min-width:768px) and (max-width:992px) {
+       width:auto;
+       height:59px;
+        margin-top: 1rem;
+        border:none;
+        opacity: 1;
+        border-radius:25px;
+       padding: 13px 18.75px;
+       text-overflow:ellipsis;
+      white-space: nowrap;
+      flex-wrap: nowrap;
+      overflow: hidden;
+        @include principal-shadow;
+         @include gradient;
+      }
+        @media (min-width:992px) {
+        width:auto;
+        height:50px;
+        margin-top: 1rem;
+        border:none;
+        opacity: 1;
+        border-radius:5rem;
+       padding: 13px 18.75px;
+        @include gradient;
+         @include principal-shadow;
+       }
+   
+   
+       span
+    {
+      @media (max-width:768px) {
+        width:auto;
+        height:auto;
+        font-size:18px;
+        font-weight: 300;
+        font-style: normal;
+        font-family: 'Roboto' ,sans-serif;
+        align-items:center;
+        text-align: center;
+        color:#FFFF;
+        font-family: 'Roboto' ,sans-serif;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        
+      }
+    
+        @media (min-width:768px) and (max-width:992px) {
+        width:auto;
+        height:auto;
+        font-size:20px;
+        font-weight: 500;
+        font-style: normal;
+        font-family: 'Roboto' ,sans-serif;
+        align-items:center;
+        text-align: center;
+        color:#FFFF;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        overflow: hidden;
+
+      }
+      
+    @media (min-width:992px) {
+      width:180px;
+      height:24px;
+      flex-wrap: nowrap;
+      font-size:16px;
+      font-weight: 500;
+      font-style: normal;
+      font-family: 'Roboto' ,sans-serif;
+      align-items:center;
+      text-align: center;
+      color:#FFFFFF;
+      margin: auto;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+      flex-wrap: nowrap;
+      overflow: hidden;
+    }
+   
+    }
+    }
+   }
+    button:hover
+   { 
+   cursor: pointer;
+    opacity: 0.8;
+    @include hover-shadow;
+    
+   }
